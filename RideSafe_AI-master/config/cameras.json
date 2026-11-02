@@ -1,0 +1,8 @@
+[
+  {
+    "camera_id": "CAM_01",
+    "name": "Main Junction Camera",
+    "location": "Main Road Junction",
+    "active": true
+  }
+]

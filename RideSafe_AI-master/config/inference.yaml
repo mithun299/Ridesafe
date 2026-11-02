@@ -1,0 +1,16 @@
+inference_fps: 10
+image_size: 640
+confidence_threshold: 0.45
+nms_threshold: 0.45
+device: cpu
+
+# Violation confirmation
+helmet_confirmation_frames: 3
+
+# Evidence
+evidence_dir: evidence
+save_evidence: false
+
+# Models
+models:
+  helmet: src/models/deployment/helmet/helmet_detector.onnx
